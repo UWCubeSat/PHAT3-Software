@@ -15,6 +15,9 @@ void setup() {
   Serial.println("SCD41 initialized successfully.");
 }
 
+
+
+
 void loop() {
   if (airSensor.readMeasurement()) { // Read sensor data
     Serial.print("CO2 (ppm): ");
